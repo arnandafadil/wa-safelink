@@ -1,6 +1,4 @@
-
-    // 🔒 Auto-replace dengan mapping konsisten (salt: Al...)
-    const WA_MAPPING = {
+{
   "MKY2Ll6LwSy": "https://chat.whatsapp.com/0GpyYi41EwrH6hWkNNcG1L",
   "zJwSt8be5E3": "https://chat.whatsapp.com/JlUrRDTgfqbJ2lP7eTXUy1",
   "4ddUarKVgHC": "https://chat.whatsapp.com/IsTlxFfqOTsI3H8Mccgge7",
@@ -39,9 +37,4 @@
   "FhAay0LQcNE": "https://chat.whatsapp.com/CZmNiBM2nSQCihX98BPKCn",
   "HjckwjyROhO": "https://chat.whatsapp.com/EXfLEyTiIy99RIuDBhGjCk",
   "bsgbrcjPqBR": "https://chat.whatsapp.com/GcqTljyztIFKQApQ78EGUe"
-};
-    document.querySelectorAll('a[href^="https://chat.whatsapp.com/"]').forEach(a => {
-        const id = Object.keys(WA_MAPPING).find(key => WA_MAPPING[key] === a.href);
-        if (id) a.href = "https://afadilm.blogspot.com/p/go.html?id=" + id;
-    });
-    
+}
